@@ -21,6 +21,11 @@
     <%= form.number_field :team_id %>
   </div>
 
+   <div class="field">
+    <strong>Upload a Profile Pic</strong>
+    <%= form.file_field :avatar, id: :user_avatar %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
